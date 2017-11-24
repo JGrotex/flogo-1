@@ -1,6 +1,11 @@
 # tibco-lego-ev3-alexa-demo
 This demo is to demonstrate how to control Lego Mindstorm EV3 motor using Flogo. In order to make the demo looks more interesting, it leverages the Flogo MQTT Raspberry demo that control LED using Alexa. When the user says voice command to Alexa, the command will be sent to Flogo resides on Lego EV3 and start/stop the motor.
 
+## Graphical Flow in Flogo
+Alexa trigger the graphically defined Flogo App Flow via MQTT Trigger
+
+![flogo image](/screenshots/flogo-lego-flow.png?raw=true "Flogo-Screenshot")
+
 ## Pre-requisite
 ```bash
 1. Get the LEGO Mindstorm EV3 boxset. It comes with central controller, 2 large motors, 2 medium motors, 1 color sensor, 1 Infra-red sensor and 1 Infra-red transceiver as remote control
