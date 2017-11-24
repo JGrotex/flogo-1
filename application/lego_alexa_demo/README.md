@@ -14,7 +14,6 @@ Alexa trigger the graphically defined Flogo App Flow via MQTT Trigger
 ```
 
 ## Installation
-
 ```bash
 1. Download lego_alexa_demo.json app from https://github.com/ufoalan/flogo/demo/lego_alexa_demo.json
 2. Pull the Flogo docker (docker run -it -p 3303:3303 flogo/flogo-docker:latest eula-accept) and start the Flogo-web
